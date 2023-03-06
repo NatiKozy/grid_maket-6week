@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Literata', serif;
+    font-style: normal;
+}
+
+.header{
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    background: #F4F9E2
+}
+
+.header__logo{
+    margin-left: 179px;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__menu-item{
+    font-size:14px ;
+    line-height: 16px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.header__menu-link{
+    text-decoration: none;
+}
+
+.header__btn{
+    background: #62D0DF;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border-color: #426bf5;
+}
+
+.btn-text{
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.hero{
+    display: flex;
+    height: 840px;
+    background: #F4F9E2;
+}
+
+.hero__main-left{
+    display: flex;
+    flex-direction: column;
+    margin-left:179px ;
+}
+
+.hero__main-logo{
+    width:102px ;
+    height: 19px;
+    margin-top: 187px;
+}
+
+.hero__main-title{
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+}
+
+
+.hero__main-text{
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 100;
+    color: #22356F;
+    width:469px;
+    height: 161px;
+    margin-bottom: 63px;
+}
+
+
+.hero__main-btn{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    margin-top: 66px;
+
+}
+.left{
+    background: #F9B640;
+    color: #fff;
+}
+
+.right{
+    background: #F4F9E2;
+    color:#FAB63E;
+}
+
+.hero__main-right{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.hero__img-white{
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+.hero__img-img{
+    grid-column: 4 / span 8;
+    grid-row: 1;
+    z-index: 1;
+}
+
+
+.why-thrive{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    height: 604px;
+    background: #62D0DF;
+
+}
+
+.why-thrive__title{
+    color: #fff;
+    margin-bottom: 75px;
+    margin-left: 178px;
+}
+
+
+.why-thrive__left-part{
+    background: #62D0DF;
+    margin-left: 178px;
+    align-self: center;
+}
+
+.why-thrive__text-first{
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+
+}
+
+.why-thrive__text-second{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.why-thrive__right-image{
+    width: 525px;
+    height: 604px;
+}
+
+
+.about-us{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.about-us__left-part{
+    width: 93px;
+    height: 210px
+}
+
+.about-us-title{
+    color:#22356F;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+.about-us__right-part{
+    width: 592px;
+    height: 210px;
+    margin-left: 225px;
+
+}
+.about-us__text{
+    color:#22356F;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.we-can-help-you{
+    height: 600px;
+}
+
+.we-can-help-you__text{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 75px;
+    padding: 20px;
+    color:rgba(34, 53, 111, 0.5);
+}
+
+.we-can-help-you__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0;
+    justify-items: center;
+}
+
+.four-cube{
+    width: 360px;
+    height: 360px;
+}
+
+
+.four-cube-text{
+    padding: 100px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #fff;
+}
+
+.we-can-help-you__pink {
+    grid-area: 2 / 1 / 3 / 2;
+    background: #FFE2DE;
+}
+
+.we-can-help-you__green {
+    grid-area: 2 / 2 / 3 / 3;
+    background: #C4E769;
+}
+
+.we-can-help-you__lightblue {
+    grid-area: 2 / 3 / 3 / 4;
+    background: #62D0DF;
+}
+
+.we-can-help-you__blue {
+    grid-area: 2 / 4 / 3 / 5;
+    background: #0052C1;
+}
+
+.four-cube-border{
+    width: 255px;
+    margin-top: 72px;
+    margin-left: 52.5px;
+}
+
+.six-cubes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+.border {
+    width: 340px;
+    margin-top: 96px;
+    margin-left: 70px;
+}
+
+.white-border{
+    border-bottom: solid 1px #fff;
+}
+
+
+.six-cube__element-text{
+    width: 157px;
+    height: 72px;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.colorcube{
+    width: 480px;
+    height: 480px;
+}
+
+.six-cube__element1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background:#22356F;
+}
+
+.six-cube__element2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background:#0052C1;
+}
+
+.six-cube__element3{
+    grid-area: 1 / 3 / 2 / 4;
+    background: url(/assets/images/6_cubes_strawberry.png);
+}
+
+.six-cube__element4 {
+    grid-area: 2 / 1 / 3 / 2;
+    background:#62D0DF;
+}
+
+.six-cube__element5 {
+    grid-area: 2 / 2 / 3 / 3;
+    background:#DEE1FF;
+}
+
+.six-cube__element6 {
+    grid-area: 2 / 3 / 3 / 4;
+    background:#8F00FF;
+}
+
+.six-text-recommends{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    margin-top: 77px;
+}
+
+.six-text-recommends__element1{
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 77px;
+}
+.six-text-recommends__element2{
+    grid-area: 1 / 2 / 2 / 3;
+    margin-top: 77px;
+}
+.six-text-recommends__element3{
+    grid-area: 1 / 3 / 2 / 4;
+    margin-top: 77px;
+}
+.six-text-recommends__element4{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.six-text-recommends__element5{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.six-text-recommends__element6{
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.cube{
+    width: 480px;
+    height: 240px;
+}
+
+.six-text-recommends__element-title{
+    color:#22356F;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+}
+
+.six-text-recommends__element-text{
+    color:rgba(34, 53, 111, 0.5);
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+}
+
+.you-should-also-know__container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.you-should-also-know__img {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.you-should-also-know__text-container {
+    grid-area: 1 / 2 / 2 / 3;
+    padding:0;
+    margin: auto;
+}
+
+.you-should-also-know__title{
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color:#22356F;
+}
+
+.you-should-also-know__text{
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color:#22356F;
+    margin-top: 225px;
+
+}
+
+.you-should-also-know__get-help-now{
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color:#FAB63E;
+    margin-top: 152px;
+
+}
+
+.ready-set-smile__container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    background: #22356F;
+
+}
+
+.ready-set-smile__text-container {
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: center;
+    color: #fff;
+    margin: auto;
+}
+
+.ready-set-smile__image {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.ready-set-smile__contact{
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+}
+.ready-set-smile__title{
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    margin-top: 230px;
+}
+
+.ready-set-smile__text{
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    margin-top: 75px;
+}
+
+.ready-set-smile__get-help-now{
+    margin-top: 52px;
+    color: #62D0DF;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    grid-template-rows: 1fr 30%;
+
+}
+
+    .footer__image-container {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .end-title{
+        color:#22356F;
+        margin-top: 98px;
+    }
+
+    .end-text{
+        color: rgba(34, 53, 111, 0.5);
+        margin-top: 40px;
+    }
+
+    .footer__enfold-health-text__link{
+        color: #006DFF;
+        text-decoration: none;
+    }
+
+    .footer__some-info{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .footer__enfold-health {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .footer__office-hours {
+        grid-area: 1 / 4 / 2 / 5;
+    }
+
+    .footer__copyright {
+        grid-area: 2 / 1 / 3 / 5;
+        background: #62D0DF;
+        color: #fff;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: -0.006em;
+    }
+
+    .footer__copyright-text{
+        margin-top: 32px;
+    }
